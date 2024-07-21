@@ -1,128 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 body {
-    font-family: 'Press Start 2P', cursive;
-    background-color: #000;
-    color: #fff;
+    font-family: 'DM Mono';
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
+/* Style for the container */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-.header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.header h1 {
-    font-size: 48px;
-    color: #00ff00;
-    text-shadow: 2px 2px 0px #000;
-}
-
-.welcome-section {
-    display: flex;
-    align-items: flex-start;
-    background: #111;
-    padding: 20px;
-    border: 2px solid #00ff00;
-    border-radius: 8px;
-}
-
-.avatar {
-    margin-right: 20px;
-    text-align: center;
-}
-
-.avatar img {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #00ff00;
-    border-radius: 50%;
-}
-
-.avatar-stats {
-    margin-top: 10px;
-    color: #00ff00;
-    font-size: 14px;
-}
-
-.welcome-text h2 {
-    font-size: 24px;
-    color: #00ff00;
-}
-
-.welcome-text p {
-    margin: 10px 0;
-    line-height: 1.5;
-}
-
-.quick-facts {
-    list-style: none;
-    padding: 0;
-}
-
-.quick-facts li {
-    margin: 5px 0;
-}
-
-.sidebar {
-    background: #111;
-    padding: 10px;
-    border: 2px solid #00ff00;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sidebar li {
-    margin: 10px 0;
-}
-
-.sidebar a {
-    color: #00ff00;
-    text-decoration: none;
-}
-
-.content {
-    background: #111;
-    padding: 20px;
-    border: 2px solid #00ff00;
-    border-radius: 8px;
-    width: 100%;
     max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
 }
 
-.blog h2 {
-    font-size: 24px;
-    color: #00ff00;
+/* Style for the header */
+.header {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'DM Mono';
+    font-size: 36px;
 }
 
-.blog ul {
-    list-style: none;
-    padding: 0;
-}
-
-.blog li {
-    margin: 10px 0;
-}
-
-.blog a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.blog a:hover {
-    text-decoration: underline;
+/* Style for the paragraph */
+p {
+    color: #666;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto;
+    width: 80%;
+    line-height: 1.6;
 }
